@@ -9,7 +9,7 @@ import requests
 from typing import List, Dict, Optional
 
 # Configuration
-ENDEE_URL = "http://localhost:8080"
+ENDEE_URL = "http://endee:8080"
 INDEX_NAME = "codebase_index"
 DENSE_DIM = 384  # Dimensionality of all-MiniLM-L6-v2
 

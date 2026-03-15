@@ -1,8 +1,6 @@
 sentence-transformers
-fastapi
-uvicorn
 streamlit
-numpy
-python-dotenv
 requests
 msgpack
+numpy
+torch==2.2.2+cpu

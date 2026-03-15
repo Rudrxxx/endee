@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+WORKDIR /app/ai-codebase-assistant
+
 RUN pip install -r requirements.txt
 
 EXPOSE 8501

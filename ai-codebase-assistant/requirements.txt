@@ -4,3 +4,5 @@ uvicorn
 streamlit
 numpy
 python-dotenv
+requests
+msgpack

@@ -1,5 +1,12 @@
+"""
+test_loader.py
+--------------
+Verifies the recursive codebase loading logic, extension filtering, 
+and file size limitations.
+"""
+
 import os
-from code_loader import load_codebase
+from backend.code_loader import load_codebase
 
 def run_test():
     # Path to the data directory relative to this script

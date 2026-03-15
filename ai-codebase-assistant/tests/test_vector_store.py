@@ -1,5 +1,12 @@
+"""
+test_vector_store.py
+--------------------
+Verifies connectivity, data insertion, and similarity search 
+functionality with the Endee vector database.
+"""
+
 import numpy as np
-from vector_store import connect_to_endee, insert_embeddings, search_similar
+from backend.vector_store import connect_to_endee, insert_embeddings, search_similar
 
 def run_vector_store_test():
     print("--- Connecting to Endee ---")

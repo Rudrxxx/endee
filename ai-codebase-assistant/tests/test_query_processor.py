@@ -1,5 +1,12 @@
+"""
+test_query_processor.py
+-----------------------
+Verifies that natural language queries are correctly converted into 
+the target semantic vector space.
+"""
+
 import numpy as np
-from query_processor import embed_query
+from backend.query_processor import embed_query
 
 def run_query_processor_test():
     query = "How do I implement user authentication in this codebase?"

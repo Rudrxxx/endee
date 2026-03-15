@@ -1,5 +1,12 @@
+"""
+test_embedder.py
+----------------
+Verifies semantic embedding generation using sentence-transformers 
+and ensures high-dimensional vector consistency.
+"""
+
 import numpy as np
-from embedder import generate_embeddings
+from backend.embedder import generate_embeddings
 
 def run_embedder_test():
     # Define some sample chunks for testing

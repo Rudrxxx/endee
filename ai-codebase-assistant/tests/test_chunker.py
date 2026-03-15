@@ -1,6 +1,13 @@
+"""
+test_chunker.py
+---------------
+Verifies the newline-aware code chunking logic and context overlap 
+between segments.
+"""
+
 import os
-from code_loader import load_codebase
-from code_chunker import chunk_code_files
+from backend.code_loader import load_codebase
+from backend.code_chunker import chunk_code_files
 
 def run_chunker_test():
     # Path to the data directory

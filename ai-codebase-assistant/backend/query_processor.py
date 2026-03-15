@@ -5,7 +5,7 @@ Processes user natural language queries into semantic embeddings.
 """
 
 import numpy as np
-from embedder import get_model
+from backend.embedder import get_model
 
 def embed_query(query: str) -> np.ndarray:
     """
